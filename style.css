@@ -1,0 +1,54 @@
+body{
+    background-image: url(./shara_desert.jpg);
+}
+.logo{
+    float: left;
+    margin: 50px;
+    
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    clear: both;
+}
+.menuimg{
+    float: right;
+    margin: 50px;
+    margin-right: 150px;
+}
+.menu{
+    float: right;
+    margin: 65px;
+    word-spacing: 50px;
+    margin-right: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.sahara h1{
+    clear: both;
+    margin: 50px;
+    padding-top: 50px;
+    color: white;
+    font-size: 100px;
+}
+.para p{
+    color: white;
+    margin-left: 50px;
+    line-height: 7px;
+}
+.para{
+    margin-top: -50px;
+}
+#explore{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    text-align: center;
+}
+#explore p{
+    position: absolute;
+}
+
