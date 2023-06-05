@@ -1,54 +1,171 @@
-body{
+body {
     background-image: url(./shara_desert.jpg);
+    height: 100vh;
 }
-.logo{
+
+#logo {
     float: left;
     margin: 50px;
-    
+
 }
-.logo img{
+
+#logo img {
     height: 50px;
     width: 50px;
     clear: both;
+    position: absolute;
 }
-.menuimg{
+
+.menuimg {
     float: right;
     margin: 50px;
     margin-right: 150px;
 }
-.menu{
+
+.menu {
     float: right;
     margin: 65px;
     word-spacing: 50px;
     margin-right: 20px;
 }
-.menu a{
+
+.menu a {
     color: white;
     text-decoration: none;
 }
-.sahara h1{
+
+.sahara h1 {
     clear: both;
     margin: 50px;
     padding-top: 50px;
     color: white;
     font-size: 100px;
 }
-.para p{
+
+.para p {
     color: white;
     margin-left: 50px;
     line-height: 7px;
 }
-.para{
+
+.para {
     margin-top: -50px;
 }
-#explore{
+
+#explore {
     background-color: white;
     width: 150px;
     height: 40px;
     margin-left: 50px;
     text-align: center;
-}
-#explore p{
-    position: absolute;
+    border-radius: 20px;
 }
 
+#explore p {
+    text-align: center;
+    padding: 12px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 500px;
+    margin-right: 200px;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    flex-direction: row;
+    left: 700px;
+    top: 200px;
+    gap: 20px;
+
+}
+
+.flex img {
+    height: 200px;
+    width: 200px;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+@media screen and (min-width:200px) and (max-width:856px) {
+
+    .body {
+        width: 60%;
+    }
+
+    .navbar {
+        height: auto;
+        margin: auto;
+        width: auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200vh;
+        width: 70%;
+        position: absolute;
+        flex-direction: column;
+        justify-content: flex-start;
+        left: 100px;
+        top: 530px;
+        gap: 20px;
+
+    }
+
+    .flex img {
+        margin: auto;
+        width: 90%;
+        height: 23%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width:200px) and (max-width:856px) {
+
+    .body {
+        width: 60%;
+    }
+
+    .navbar {
+        height: auto;
+        margin: auto;
+        width: auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200vh;
+        width: 70%;
+        position: absolute;
+        flex-direction: column;
+        justify-content: flex-start;
+        left: 50px;
+        top: 680px;
+        gap: 20px;
+
+    }
+
+    .flex img {
+        margin: auto;
+        width: 90%;
+        height: 23%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        float: left;
+    }
+
+}
