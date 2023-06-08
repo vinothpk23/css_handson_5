@@ -96,9 +96,9 @@ body {
 
 @media screen and (min-width:200px) and (max-width:856px) {
 
-    .body {
+    /* .body {
         width: 60%;
-    }
+    } */
 
     .navbar {
         height: auto;
@@ -110,7 +110,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         height: 200vh;
-        width: 70%;
+        width: 200px;
         position: absolute;
         flex-direction: column;
         justify-content: flex-start;
@@ -123,13 +123,17 @@ body {
     .flex img {
         margin: auto;
         width: 90%;
-        height: 23%;
+        height: 50px;
         display: flex;
         flex-wrap: wrap;
         position: relative;
         flex-direction: row;
         justify-content: flex-start;
         float: left;
+    }
+    .flex img:hover{
+        transform: translateY(-10px);
+        box-shadow: 5px -5px lightgoldenrodyellow;
     }
 
 }
@@ -149,13 +153,13 @@ body {
     .flex {
         display: flex;
         flex-wrap: wrap;
-        height: 200vh;
+        height: 200px;
         width: 70%;
         position: absolute;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
         left: 50px;
-        top: 680px;
+        top: 650px;
         gap: 20px;
 
     }
@@ -163,13 +167,82 @@ body {
     .flex img {
         margin: auto;
         width: 90%;
-        height: 23%;
+        height: 200px;
         display: flex;
         flex-wrap: wrap;
         position: relative;
         flex-direction: row;
         justify-content: flex-start;
         float: left;
+    }
+
+    .sahara h1 {
+        clear: both;
+        padding-top: 50px;
+        color: white;
+        font-size: 50px;
+    }
+    .para p{
+        line-height: 20px;
+        text-align: justify;
+    }
+    
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .body {
+        width: 60%;
+    }
+
+    .navbar {
+        height: auto;
+        margin: auto;
+        width: auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        width: 70%;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-start;
+        left: 50px;
+        top: 530px;
+        gap: 20px;
+
+    }
+
+    .flex img {
+        margin: auto;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        float: left;
+    }
+
+    .sahara h1 {
+        clear: both;
+        padding-top: 50px;
+        color: white;
+        font-size: 50px;
+    }
+    .para {
+        margin:auto;
+        line-height: 20px;
+        text-align: justify;
+    }
+    
+    .flex img:hover{
+        transform: translateY(-10px);
+        box-shadow: 5px -5px lightgoldenrodyellow;
     }
 
 }
